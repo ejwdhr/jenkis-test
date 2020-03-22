@@ -12,7 +12,7 @@ plugins {
 }
 
 group = 'com.test.jenkins'
-version = '0.0.1-SNAPSHOT'
+//version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 
@@ -29,6 +29,8 @@ dependencies {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
 }
+
+
 
 test {
     useJUnitPlatform()
